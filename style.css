@@ -1,0 +1,1486 @@
+/*
+Theme Name: iconic
+Author: Sylwia Janczak dla Light Code
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: iconic
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: "Roboto" !important;
+	color: #676767;
+}
+body {
+	font-size: 16px;
+}
+ul {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.w3-content {
+    max-width: 1200px;
+}
+.w3-content-blue {
+    max-width: 700px;
+	    margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+
+header img {
+    width: 30vh;
+    max-width: 40%;
+	margin-top: 5em;
+}
+
+section#iconic_santorini header {
+    background-image: url(img/hero_main.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: top;
+    text-align: center;
+    height: 100vh;
+    object-fit: cover;
+}
+section#hotel header {
+    background-image: url(img/hotel_hero.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#residences header {
+    background-image: url(img/residences/hero.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#region header {
+    background-image: url(img/heroi.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#attraction header {
+    background-image: url(img/boat.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#blog header {
+    background-image: url(img/SunsetSkyline.JPG);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#gallery header {
+    background-image: url(img/gallery/bso0026.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+/*    background-position: top;*/
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#iconic_suite header {
+	background-image: url(img/Iconic/Lounge.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#the_hotel header {
+	background-image: url(img/the_hotel.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#greek_styling header {
+	background-image: url(img/greek_styling.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#guest_services header {
+	background-image: url(img/guest_services.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#amenities header {
+	background-image: url(img/amenities.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#cuisine header{
+	background-image: url(img/cuisine.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#wellness header {
+	background-image: url(img/wellness.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#cliff_suite header {
+	background-image: url(img/Cliff/cliff.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#cave_suite header {
+	background-image: url(img/Cave/Terrace&Views.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#grotto_suite header {
+	background-image: url(img/Grotto/groto.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#caldera_suite header {
+	background-image: url(img/Caldera/Bedroom.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#cycladic_suite header {
+	background-image: url(img/Cycladic/Terrace.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#classic_suite header {
+	background-image: url(img/Classic/classic.jpg);
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+section#press header {
+    background-image: url(img/press.jpg);
+    background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+}
+.blue-section {
+	background: linear-gradient(#9DD6E6,#729FD4);
+/*	background:url(img/AdobeStock_86392897_Preview.jpeg);*/
+	background-position: 0em -15em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+}
+
+.blue-section h1 {
+	color: white;
+}
+.white_text  {
+	color: white;
+}
+.horizon_white {
+	color: white !important;
+	border-top: 2px solid #fafafa !important;
+}
+
+article h1 {
+    padding-left: 0;
+    padding-right: 1em;
+	color: #676767;
+	font-family: Playfair Display !important;
+	text-align: left;
+	font-size: 30px;
+	font-weight: 900;
+}
+article .subtitle {
+	line-height: 1;
+	color: #676767;
+	font-family: Playfair Display !important;
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 4em;
+}
+article h2 {
+    padding-left: 0;
+    padding-right: 1em;
+	color: #676767;
+	font-family: Playfair Display !important;
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+article p {
+    padding: 1em 0em;
+}
+.horizon {
+/*
+	padding-left: 7em;
+	border-top: 15px solid #AB8A2E;
+*/
+	min-height: 1px;
+	margin-left: 0;
+	color: #AB8A2E;
+    font-weight: bold;
+}
+
+.horizon_right {
+    float: right;
+    display: block;
+    border-top: 2px solid #95989A;
+    min-height: 1px;
+    margin-left: 1em;
+    text-decoration: none;
+    color: #95989A;
+}
+/*
+.horizon_header {
+	padding-left: 7em;
+    border-top: 2px solid #fff;
+    min-height: 1px;
+    margin-left: 1em;
+}
+*/
+
+.wrapper {
+    background-color: #FAFAFA;
+}
+
+.press_button {
+	text-align: center !important;
+	color: #AB8A2E;
+}
+.press_button_right {
+	text-align: left;
+    color: #AB8A2E;
+}
+
+footer {
+    background: linear-gradient(to right, #ab8829 0%, #bb9e53 100%);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 1px;
+    float: left;
+    width: 49.99999%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu-desktop a {
+	text-decoration: none;
+	font-weight:bold;
+}
+.carousel {
+    padding: 55px 0;
+    text-align: center;
+}
+.owl-controls {
+    margin-top: 60px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    cursor: move;
+}
+
+.carousel-item:hover .carousel-hover {
+    opacity: 1;
+}
+
+.carousel-item:hover h3 {
+    transform: translateX(0%);
+    transform: translateY(0%);
+    transform: translateZ(0%);
+}
+
+.carousel-item:hover p {
+   	transform: translateX(0%);
+    transform: translateY(0%);
+    transform: translateZ(0%);
+}
+
+.carousel-hover p {
+	text-align: left;
+}
+p {
+	line-height: 1.75 !important;
+}
+h1 {
+	line-height: 1.25;
+}
+.w3-padding-48 {
+    padding-top: 25px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 36px/1 FontAwesome !important;
+	color: #AB8A2E;
+	font-size: 17px !important;
+}
+.w3-btn:hover {
+	background-color: #AB8A2E;
+    color: white;
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,0,0,0.0);
+}
+.w3-white:hover {
+	background-color: white !important;
+}
+.w3-top {
+	background-color: white;
+}
+.w3-bar {
+	padding: 16px;
+}
+.w3-bar-item {
+	text-decoration: none;
+}
+.logo_desktop {
+		width: 8vh;
+	}
+.text_align {
+	text-align: left;
+}
+.w3-bar .w3-bar-item {
+    padding: 3px 16px !important;
+}
+.active-button {
+/*    background-color: #AB8A2E;*/
+    color: #AB8A2E;
+/*	text-decoration: line-through #AB8A2E;*/
+}
+.slider_content__title {
+	font-family: Playfair Display !important;
+    text-align: center;
+/*    margin-left: 102vh;*/
+    margin-top: 10vh;
+    font-size: 47px;
+    font-weight: 700;
+    color: #fff;
+}
+.region_photo{
+	background-image: url(img/island.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: top;*/
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.region_island_photo {
+	background-image: url(img/village.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: top;*/
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.cuisine_photo_one {
+	background-image: url(img/cuisine/Food4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: top;*/
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.cuisine_photo_two{
+	background-image: url(img/cuisine/pergola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.guest_services_photo_one {
+	background-image: url(img/guest_services/DSC_0671.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.guest_services_photo_two {
+	background-image: url(img/guest_services/Sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.amenities_photo_one{
+	background-image: url(img/amenities/Aesop3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.amenities_photo_two{
+	background-image: url(img/amenities/Aesop3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.wellness_photo_one{
+	background-image: url(img/wellness/FitnessRoom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.wellness_photo_two{
+	background-image: url(img/wellness/FitnessRoom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.the_hotel_photo_one {
+	background-image: url(img/the_hotel/hotel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.the_hotel_photo_two {
+	background-image: url(img/the_hotel/hotel2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    object-fit: cover;
+	width:100%;
+}
+.bold_class {
+	font-weight: bold;
+}
+
+.row > .column {
+/*  padding: 1px 2px;*/
+	margin-bottom: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 23.99%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 6;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+.img-press {
+	width: 200px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.hotel_photo {
+		background-size: cover;
+		height: 65vh;
+		object-fit: cover;
+		width: 100%
+	}
+.logo_footer {
+	width: 15vh;
+    max-width: 15%;
+}
+.gk-newsletter {
+	margin-top: 2em;
+}
+.footer_join {
+	border: 1px solid #ffffff!important;
+    width: 6%;
+    background-color: white;
+    color: #AB8A2E;
+	min-height: 32px;
+}
+.footer_join:hover {
+	background-color: #AB8A2E;
+    color: white;
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,0,0,0.0);
+}
+.footer_h2 {
+	font-size: 16px;
+	color: white;
+	text-align: left;
+}
+.card-footer p{
+	font-size:11px;
+	color: white;
+	text-align: left;
+}
+.input_form_footer {
+	padding-left: 30px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    min-height: 25px;
+    font-weight: 500;
+    border: 2px solid #fff;
+	color: #AB8A2E;
+}
+.column {
+  	position: relative;
+  	overflow: hidden;
+
+}
+.column img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.column:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.column_apartments {
+/*  position: relative;*/
+  overflow: hidden;
+
+}
+.column_apartments img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.column_apartments:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.title_room {
+	position: absolute;
+}
+.title_room h3 {
+	margin-top: 15em;
+	margin-left: 0.5em;
+	color: white;
+}
+.title_room_one {
+	position: absolute;
+}
+.title_room_one h3 {
+	margin-top: 9em;
+	margin-left: 0.5em;
+	color: white;
+}
+/*
+	.middle {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 37%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+*/
+/*
+	.middle_cliff {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 50%;
+	  right: 16%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+*/
+/*
+	.middle_cave {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 60%;
+	  left: 25%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.middle_grotto {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 60%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+*/
+/*
+	.middle_caldera {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 60%;
+	  right: 16%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.middle_cycladic {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 73%;
+      left: 31%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.middle_classic {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 73%;
+	  right: 21%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+*/
+/*
+	.text {
+	  background-color: #AB8A2E;
+	  color: white;
+	  font-size: 16px;
+	  padding: 16px 32px;
+	}
+*/
+	.container_img:hover .w3-image {
+	  opacity: 0.5;
+	}
+
+/*
+	.container_img:hover .middle {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_cliff {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_cave {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_grotto {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_caldera {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_cycladic {
+	  opacity: 1;
+	}
+	.container_img:hover .middle_classic {
+	  opacity: 1;
+	}
+*/
+
+.koboFooterLine {
+    border-bottom: 2px solid rgb(171, 138, 46);
+    width: 20%;
+    float: left;
+    margin-top: 11px;
+    margin-right: 0.5em;
+}
+.widSSPData {
+	border-style: solid;
+	color: #AB8A2E;
+}
+
+@media screen and (max-width: 480px) {
+	section#iconic_santorini header,
+	section#hotel header,
+	section#residences header,
+	section#region header,
+	section#attraction header,
+	section#gallery header,
+	section#iconic_suite header,
+	section#blog header,
+	section#the_hotel header,
+	section#guest_services header,
+	section#greek_styling header,
+	section#amenities header,
+	section#cuisine header,
+	section#wellness header,
+	section#cliff_suite header,
+	section#cave_suite header,
+	section#grotto_suite header,
+	section#caldera_suite header,
+	section#cycladic_suite header,
+	section#classic_suite header,
+	section#press header {
+		background-position: top;
+	}
+	h1, h2, article p {
+		margin-left: 4vh;
+		margin-right: 4vh;
+	}
+	article {
+		margin-left: 4vh;
+		margin-right: 4vh;
+	}
+	.horizon {
+		margin-left: 4vh;
+	}
+	.horizon_right {
+    	margin-right: 4vh;
+		font-size: 10px;
+	}
+	.w3-col {
+/*		width: 25%;*/
+	}
+	section#hotel header,
+	section#residences header,
+	section#region header,
+	section#attraction header,
+	section#gallery header,
+	section#iconic_suite header,
+	section#blog header,
+	section#the_hotel header,
+	section#guest_services header,
+	section#greek_styling header,
+	section#cuisine header,
+	section#wellness header,
+	section#cliff_suite header,
+	section#cave_suite header,
+	section#grotto_suite header,
+	section#caldera_suite header,
+	section#cycladic_suite header,
+	section#classic_suite header,
+	section#press header {
+		height: 50vh;
+		object-fit: cover;
+	}
+/*
+	header img {
+    	visibility: hidden;
+	}
+*/
+	.w3-opacity span{
+		position: fixed;
+    	width: 100%;
+	}
+	.menu-desktop a {
+    	font-size: 17px;
+	}
+	.logo_mobile {
+    	display: block;
+    	width: 6vh;
+    	visibility: visible;
+	}
+	.logo_mobile_home {
+    	display: block;
+    	width: 6vh;
+    	visibility: hidden;
+	}
+	.w3-white {
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	}
+	.w3-opacity {
+    	opacity: 1;
+	}
+	.w3-top {
+		visibility: hidden;
+	}
+	.slider_content__title {
+	    display: none;
+	}
+	.story_desktop {
+		display: none;
+	}
+	.attraction_content__title {
+		font-family: Playfair Display !important;
+		text-align: center;
+/*		margin-left: 0;*/
+		margin-top: 24vh;
+		font-size: 22px;
+		font-weight: 700;
+		color: #fff;
+	}
+	.region_column {
+		display: none;
+	}
+	.card-txt {
+		padding: 0 0 ;
+	}
+	.awards {
+		display: none;
+	}
+	.btn_top {
+		display: none;
+	}
+	.press_button_right {
+    	text-align: center;
+	}
+	.logo_footer {
+		width: 30vh;
+		max-width: 30%;
+	}
+	.input_form_footer {
+		width: 100%;
+		margin-bottom: 11px;
+		margin-left: 0;
+	}
+	.footer_join {
+		width: 100%;
+	}
+	.footer_h2 {
+		text-align: center;
+		font-size: 30px;
+	}
+	.card-footer p {
+		text-align: center;
+		font-size: 16px;
+	}
+	.version_for_desktop {
+		display: none
+	}
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 49.99999%;
+        margin: -1px -1px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 992px) {
+	.w3-opacity span{
+		position: fixed;
+    	width: 100%;
+	}
+	.menu-desktop a {
+    	font-size: 17px;
+	}
+	.logo_mobile {
+    	display: block;
+    	width: 6vh;
+    	visibility: visible;
+	}
+			.logo_mobile_home {
+    	display: block;
+    	width: 7vh;
+    	visibility: hidden;
+	}
+	.w3-white {
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	}
+	.w3-opacity {
+    	opacity: 1;
+	}
+	.w3-top {
+		visibility: hidden;
+	}
+    section#iconic_santorini header,
+  	section#hotel header,
+  	section#residences header,
+  	section#region header,
+  	section#attraction header,
+  	section#gallery header,
+  	section#iconic_suite header,
+  	section#blog header,
+  	section#the_hotel header,
+  	section#guest_services header,
+  	section#greek_styling header,
+  	section#amenities header,
+  	section#cuisine header,
+  	section#wellness header,
+  	section#cliff_suite header,
+  	section#cave_suite header,
+  	section#grotto_suite header,
+  	section#caldera_suite header,
+  	section#cycladic_suite header,
+  	section#classic_suite header,
+	section#press header {
+    background-position: top;
+  }
+  h1, h2, article p {
+    margin-left: 4vh;
+    margin-right: 4vh;
+  }
+  article {
+    margin-left: 4vh;
+    margin-right: 4vh;
+  }
+  .horizon {
+    margin-left: 4vh;
+  }
+  .horizon_right {
+      margin-right: 4vh;
+    font-size: 10px;
+  }
+  .w3-col {
+/*    width: 25%;*/
+  }
+  section#hotel header,
+  section#residences header,
+  section#region header,
+  section#attraction header,
+  section#gallery header,
+  section#iconic_suite header,
+  section#blog header,
+  section#the_hotel header,
+  section#guest_services header,
+  section#greek_styling header,
+  section#cuisine header,
+  section#wellness header,
+  section#cliff_suite header,
+  section#cave_suite header,
+  section#grotto_suite header,
+  section#caldera_suite header,
+  section#cycladic_suite header,
+  section#classic_suite header {
+    height: 70vh;
+    object-fit: cover;
+  }
+/*
+  header img {
+      visibility: hidden;
+  }
+*/
+  .w3-opacity span{
+    position: fixed;
+      width: 100%;
+  }
+  .menu-desktop a {
+      font-size: 17px;
+  }
+  .logo_mobile {
+      display: block;
+      width: 6vh;
+      visibility: visible;
+  }
+  .logo_mobile_home {
+      display: block;
+      width: 6vh;
+      visibility: hidden;
+  }
+  .w3-white {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+  .w3-opacity {
+      opacity: 1;
+  }
+  .w3-top {
+    visibility: hidden;
+  }
+  .slider_content__title {
+      display: none;
+  }
+
+  .attraction_content__title {
+    font-family: Playfair Display !important;
+    text-align: center;
+/*    margin-left: 0;*/
+    margin-top: 24vh;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .region_column {
+    display: none;
+  }
+  .card-txt {
+    padding: 0 0 ;
+  }
+  .awards {
+    display: none;
+  }
+  .btn_top {
+    display: none;
+  }
+  .press_button_right {
+      text-align: center;
+  }
+  .logo_footer {
+    width: 30vh;
+    max-width: 30%;
+  }
+  .input_form_footer {
+    width: 100%;
+    margin-bottom: 11px;
+    margin-left: 0;
+  }
+  .footer_join {
+    width: 100%;
+  }
+  .footer_h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .card-footer p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .version_for_mobile {
+    display: none
+  }
+  .awards_story {
+    padding-left: 4em;
+    padding-right: 5em;
+  }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1100px) {
+	.story_hotel {
+		margin-right: 4em;
+	}
+	.desktop_img {
+		max-width: 310px !important;
+	}
+	h1, h2, article p {
+		margin-left: 4vh;
+		margin-right: 7vh;
+	}
+}
+
+@media only screen and (min-width: 993px){
+	.logo_mobile {
+		visibility: hidden;
+	}
+
+	.logo_mobile_home {
+    	display: block;
+    	width: 7vh;
+    	visibility: hidden;
+	}
+	header img {
+		visibility: hidden;
+	}
+	.w3-opacity span {
+		visibility: hidden;
+	}
+	.w3-hide-small {
+		font-size: 15px;
+		margin-right: 25px;
+	}
+	.w3-bar-item:hover {
+/*		text-decoration: line-through #AB8A2E;*/
+/*		color: #AB8A2E;*/
+	}
+	.desktop-menu {
+		padding-top: 15px;
+	}
+	.desktop-menu a:hover {
+		color: #AB8A2E;
+	}
+	.w3-top {
+    	z-index: 5;
+	}
+	.w3-card, .w3-card-2 {
+    	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0), 0 0px 0px 0 rgba(0,0,0,0.0);
+	}
+	.story_place {
+		margin-top: 10em;
+		margin-bottom: 10em;
+	}
+	.hotel_place {
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+	.text_story {
+		margin-top: 0em;
+	}
+	.room_text {
+		margin-left: 2em;
+    	margin-top: 3em;
+	}
+	.container_rooms {
+		margin-bottom: 10em;
+	}
+	.story_hotel {
+		margin-top: 2em;
+	}
+	.cliff_image {
+		height: 421px;
+    	object-fit: cover;
+	}
+	.cave_height {
+		height: 266px;
+	}
+	.cycladic_height {
+		height: 415px;
+	}
+	.region_content__title {
+		font-family: Playfair Display !important;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 15vh;
+		font-size: 47px;
+		font-weight: 700;
+		color: #fff;
+	}
+	.attraction_content__title {
+		font-family: Playfair Display !important;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 30vh;
+		font-size: 47px;
+		font-weight: 700;
+		color: #fff;
+	}
+	.region_header {
+		text-align: center;
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+	.container_img {
+		padding: 0.01em 2px;
+	}
+	.container_img_gallery{
+		padding: 2px 2px;
+	}
+	.maps_region {
+		visibility: visible;
+    	margin-top: 9em;
+		width: 47vh;
+	}
+	.region_header_page {
+		margin-right: 5em;
+		margin-top: 3em;
+		color: white;
+	}
+	.logo_home_page {
+		visibility: visible;
+		margin-top: 7em;
+	}
+	.apartment_column {
+		margin-top: 5em;
+	}
+	.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+		height:63px;
+	   background-color: white;
+	   color: white;
+	   text-align: center;
+	}
+	#myBtn {
+	  display: none;
+	  position: fixed;
+	  bottom: 20px;
+	  right: 15px;
+	  z-index: 99;
+	  width: 3vh;
+	}
+
+	.fa-chevron-circle-up:hover {
+  		color: #AB8A2E;
+	}
+	.media_social {
+		margin-top: 18em;
+    	max-width: 3vh;
+		margin-left: 0.7em;
+	}
+	.right_paragraph {
+		margin-right: 4em;
+	}
+	.left_paragraph {
+		margin-left: 4em;
+    	text-align: right;
+	}
+	.hotel_top {
+		margin-top: 4em;
+	}
+	img {
+  		margin-bottom: -7px;
+	}
+	.awards_story img {
+		visibility: visible;
+		max-width: 30%;
+/*		width: 15vh;*/
+		margin-top: 0.5em;
+   		margin-left: 1em;
+		padding: 2em;
+	}
+	.version_for_mobile {
+		display: none;
+	}
+	.special_button {
+		margin-left: 2em;
+	}
+	.apartments_container .w3-container {
+		padding: 0.01em 0;
+	}
+
+
+}
+
+
